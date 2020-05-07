@@ -4,3 +4,44 @@
 h1 {
     color: red;
 }
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('ruby.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+}
+
+.footer {
+    margin-top: 45px;
+    padding-top: 45px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer small  {
+    float: left;
+}
